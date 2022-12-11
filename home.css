@@ -1,0 +1,147 @@
+*{font-family:Poppins;
+
+}
+ul li .nav-link{
+    font-weight 500px; 
+    font-family:Poppins;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.active{
+    background-color: #3A5335;
+    Width:Hug (143px);
+Height:Hug (51px);
+top:34px;
+left:1249px;
+border-radius:16px;
+Padding:14px, 24px, 14px, 24px;
+
+color:white !important}
+
+#card1{
+    
+    background-color: rgb(240, 248, 255);
+  color: white;
+    padding: 100px;
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.sokaglobal.org/wp-content/uploads/Initiatives/3D00036/climate-action-and-transformation.jpg);
+}
+.card-title{
+    width: 624px;
+    padding-bottom: 70px;
+}
+#card-text1{
+    width: 624px;
+    z-index: 1500;
+    color: white;
+    padding-bottom: 70px;
+}
+.bg-transparent{
+    border-color: #3A5335;
+}
+.btn{
+    background-color: #3A5335;
+    border-color: #3A5335;
+}
+.card-body a{
+    text-decoration-line: none;
+}
+#title {
+    color:#3A5335
+}
+span .card-title {
+    color: black ;
+    font-weight: 700px;
+}
+
+#about {
+    width: 600px;
+    
+
+}
+#about-us{
+    margin-top: 5rem;
+
+    margin-left: 7rem;
+    padding-bottom: 4rem;
+}
+
+#projects{
+    text-align: center;
+    font-weight: 223px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#blogs{
+    text-align: center;
+    font-weight: 223px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#footer{
+    text-align: center;
+}
+
+#footer span{
+    padding: 100px;
+    
+}
+footer{
+    margin-top: 3rem;
+}
+
+.footer-container{
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+    .left{
+        margin-left: -2rem;
+    }
+    .number{
+        margin-left: 3.5rem;
+    }
+    .email{
+        margin-left: 4.2rem;
+    }
+    .icons{
+        margin-left: -9rem;
+    }
+    .email1{
+        margin-top: 2rem;
+    }
+    .email2{
+        margin-left: 1.2rem;
+        font-size: 15px;
+        width: 80px;
+    }
+    #contact{
+        padding-left: -50rem;
+        Font-family: Poppins;
+       
+        
+    }
+    footer h5{
+        font-weight: bolder;
+        color:#5C715E;
+    }
+
+    .right{
+        margin-right: 3rem;  
+    }
+   .faqs{
+    text-align: center;
+    padding-top: 5rem;
+    
+  
+   }
+   .faqs a{ text-decoration-line: none;
+    color: black; }
+
+   .last{
+    margin-top: 5rem;
+    padding-top: 2rem;
+    background-color: #D3D6A9;
+   }
