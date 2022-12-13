@@ -1,5 +1,17 @@
 * {
-  font-family: 'Poppins';
+  font-family: "Poppins";
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: #fff;
+  width: 100%;
+}
+
+.page-content {
+  margin-top: 100px;
 }
 
 nav {
@@ -7,23 +19,25 @@ nav {
   top: 0;
 }
 
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-item {
+  margin: 16px;
+}
+
 ul li .nav-link {
   font-weight: 500px;
   color: black;
-  padding-left: 20px;
-  padding-right: 20px;
   text-transform: capitalize;
 }
 
 .active {
   background-color: #3a5335;
-  width: Hug (143px);
-  height: Hug (51px);
-  top: 34px;
-  left: 1249px;
-  border-radius: 16px;
-  padding: 14px, 24px, 14px, 24px;
   color: white !important;
+  border-radius: 16px;
+  padding: 14px 24px !important;
 }
 
 #card1 {
@@ -93,23 +107,6 @@ span .card-title {
   padding-bottom: 80px;
 }
 
-#footer {
-  text-align: center;
-}
-
-#footer span {
-  padding: 100px;
-}
-
-footer {
-  margin-top: 3rem;
-}
-
-.footer-container {
-  justify-content: center;
-  padding-top: 2rem;
-}
-
 .left {
   margin-left: -2rem;
 }
@@ -140,11 +137,6 @@ footer {
   padding-left: -50rem;
 }
 
-footer h5 {
-  font-weight: bolder;
-  color: #5c715e;
-}
-
 .right {
   margin-right: 3rem;
 }
@@ -159,16 +151,9 @@ footer h5 {
   color: black;
 }
 
-.last {
-  margin-top: 5rem;
-  padding-top: 2rem;
-  background-color: #d3d6a9;
-}
-
 .welcome-header {
   height: 649px;
-  background: url(../assets/images/getinvolved_welcome.svg) no-repeat center
-    center;
+  background: url(../assets/images/getinvolved_welcome.svg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -321,4 +306,53 @@ a {
 .about-project a {
   text-align: right;
   color: #000;
+}
+
+/* footer styles */
+footer {
+  position: relative;
+  background: #d3d6a9;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  bottom: 0;
+  width: 100%;
+  padding: 36px;
+  margin-top: 36px;
+}
+
+footer .col {
+  text-align: center;
+}
+
+.row-headers {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #5c715e;
+}
+
+.row-footer {
+  padding: 16px;
+  font-size: 10px;
+}
+
+footer a {
+  display: inline-grid;
+  padding: 12px;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer .col-single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .contacts {
+  font-weight: bolder;
+  font-size: 12px;
 }
