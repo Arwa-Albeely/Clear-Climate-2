@@ -46,7 +46,9 @@ ul li .nav-link {
   padding: 100px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(https://www.sokaglobal.org/wp-content/uploads/Initiatives/3D00036/climate-action-and-transformation.jpg);
+  background-image: url(/assets/images/index_html1.svg);
+  border: none;
+  border-radius: 0;
 }
 
 .card-title {
@@ -87,10 +89,13 @@ span .card-title {
   width: 600px;
 }
 
-#about-us {
-  margin-top: 5rem;
-  margin-left: 7rem;
-  padding-bottom: 4rem;
+.about-us {
+  margin: 100px;
+}
+
+.about-us-climate {
+  padding: 46px;
+  background: rgba(213, 244, 152, 0.86);
 }
 
 #projects {
@@ -306,6 +311,13 @@ a {
 .about-project a {
   text-align: right;
   color: #000;
+}
+
+.about-clearclimate {
+  background: url(../assets/images/index_html2.svg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /* footer styles */
