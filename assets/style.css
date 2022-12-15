@@ -368,3 +368,90 @@ footer .contacts {
   font-weight: bolder;
   font-size: 12px;
 }
+
+.modal {
+  z-index: 20000;
+}
+
+.modal-open header {
+  z-index: 999;
+}
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.signup-container {
+  background: #5C715E;
+}
+
+.left-unset {
+  left: unset !important;
+}
+
+.success-modal-header {
+  background: #5C715E;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.success-modal-header .modal-title {
+  color: #fff;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.2px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.thank-you-title {
+  margin-top: 100px;
+  font-size: 23px;
+  color: #5C715E;
+  text-align: center;
+}
+
+.thank-you-description {
+  margin-top: 36px;
+  margin-bottom: 100px;
+  font-size: 23px;
+  color: #5C715E;
+  text-align: center;
+}
