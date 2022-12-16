@@ -17,7 +17,7 @@ input[type="radio"] {
 .bold {
     font-weight: bold;
 }
-button{
+button, .btn {
     background-color: #5C715E !important;
     border-color: #5C715E !important;
 }
